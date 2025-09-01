@@ -43,8 +43,8 @@ export default function Home() {
               Static Websites
             </h1>
             <p className="text-xl text-slate-600 mb-8 max-w-2xl mx-auto leading-relaxed">
-              The modern static site generator that makes creating blazing-fast websites effortless. 
-              Write content, choose a theme, and deploy anywhere in minutes.
+              The modern static site generator powered by Google Gemini Pro AI.<br />
+              Get your free API key from <a href="https://aistudio.google.com/u/1/apikey" target="_blank" rel="noopener noreferrer" className="text-emerald-600 hover:text-emerald-700 underline font-medium">Google AI Studio</a> and start building in minutes.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href="/app" className="bg-emerald-600 text-white px-8 py-4 rounded-lg hover:bg-emerald-700 transition-all transform hover:scale-105 font-medium text-lg flex items-center justify-center space-x-2">
@@ -145,8 +145,7 @@ export default function Home() {
             Ready to build something amazing?
           </h2>
           <p className="text-xl text-emerald-100 mb-8">
-            Join thousands of developers who&rsquo;ve made the switch to Static Write. 
-            Start building faster, more reliable websites today.
+            Powered by Google Gemini Pro AI. Get your free API key from <a href="https://aistudio.google.com/u/1/apikey" target="_blank" rel="noopener noreferrer" className="text-white hover:text-emerald-50 underline font-medium">Google AI Studio</a> and start building faster, more reliable websites today.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a href="/app" className="bg-white text-emerald-600 px-8 py-4 rounded-lg hover:bg-emerald-50 transition-all transform hover:scale-105 font-medium text-lg flex items-center justify-center space-x-2">
@@ -183,7 +182,7 @@ export default function Home() {
               <span className="text-xl font-bold text-white">Static Write</span>
             </div>
             <p className="text-slate-400 mb-8 max-w-md">
-              The modern static site generator that makes creating lightning-fast websites effortless.
+              The modern static site generator powered by Google Gemini Pro AI that makes creating lightning-fast websites effortless.
             </p>
             
             <div className="border-t border-slate-800 pt-8 w-full">
