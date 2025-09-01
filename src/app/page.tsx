@@ -8,6 +8,7 @@ import {
   HiArrowRight,
   HiCheck
 } from 'react-icons/hi';
+import Link from 'next/link';
 
 export default function Home() {
   return (
@@ -25,11 +26,11 @@ export default function Home() {
               </div>
             </div>
             
-            <div className="flex items-center">
-              <a href="/app" className="bg-emerald-600 text-white px-4 py-2 rounded-lg hover:bg-emerald-700 transition-colors font-medium">
-                Launch App
-              </a>
-            </div>
+                          <div className="flex items-center">
+                <Link href="/app" className="bg-emerald-600 text-white px-4 py-2 rounded-lg hover:bg-emerald-700 transition-colors font-medium">
+                  Launch App
+                </Link>
+              </div>
           </div>
         </div>
       </header>
@@ -46,15 +47,15 @@ export default function Home() {
               The modern static site generator powered by Google Gemini Pro AI.<br />
               Get your free API key from <a href="https://aistudio.google.com/u/1/apikey" target="_blank" rel="noopener noreferrer" className="text-emerald-600 hover:text-emerald-700 underline font-medium">Google AI Studio</a> and start building in minutes.
             </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <a href="/app" className="bg-emerald-600 text-white px-8 py-4 rounded-lg hover:bg-emerald-700 transition-all transform hover:scale-105 font-medium text-lg flex items-center justify-center space-x-2">
-                <span>Get Started Free</span>
-                <HiArrowRight />
-              </a>
-              <a href="/app" className="border-2 border-slate-300 text-slate-700 px-8 py-4 rounded-lg hover:border-slate-400 hover:bg-slate-100 transition-all font-medium text-lg">
-                View Demo
-              </a>
-            </div>
+                          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+                <Link href="/app" className="bg-emerald-600 text-white px-8 py-4 rounded-lg hover:bg-emerald-700 transition-all transform hover:scale-105 font-medium text-lg flex items-center justify-center space-x-2">
+                  <span>Get Started Free</span>
+                  <HiArrowRight />
+                </Link>
+                <Link href="/app" className="border-2 border-slate-300 text-slate-700 px-8 py-4 rounded-lg hover:border-slate-400 hover:bg-slate-100 transition-all font-medium text-lg">
+                  View Demo
+                </Link>
+              </div>
           </div>
 
         </div>
@@ -147,12 +148,12 @@ export default function Home() {
           <p className="text-xl text-emerald-100 mb-8">
             Powered by Google Gemini Pro AI. Get your free API key from <a href="https://aistudio.google.com/u/1/apikey" target="_blank" rel="noopener noreferrer" className="text-white hover:text-emerald-50 underline font-medium">Google AI Studio</a> and start building faster, more reliable websites today.
           </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <a href="/app" className="bg-white text-emerald-600 px-8 py-4 rounded-lg hover:bg-emerald-50 transition-all transform hover:scale-105 font-medium text-lg flex items-center justify-center space-x-2">
-              <span>Start Building Free</span>
-              <HiArrowRight />
-            </a>
-          </div>
+                      <div className="flex flex-col sm:flex-row gap-4 justify-center">
+              <Link href="/app" className="bg-white text-emerald-600 px-8 py-4 rounded-lg hover:bg-emerald-50 transition-all transform hover:scale-105 font-medium text-lg flex items-center justify-center space-x-2">
+                <span>Start Building Free</span>
+                <HiArrowRight />
+              </Link>
+            </div>
           
           <div className="mt-12 flex items-center justify-center space-x-8 text-emerald-100">
             <div className="flex items-center space-x-2">
